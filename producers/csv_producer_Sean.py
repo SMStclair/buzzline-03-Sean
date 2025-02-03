@@ -71,7 +71,7 @@ DATA_FOLDER = PROJECT_ROOT.joinpath("data")
 logger.info(f"Data folder: {DATA_FOLDER}")
 
 # Set the name of the data file
-DATA_FILE = DATA_FOLDER.joinpath("smoker_temps.csv")
+DATA_FILE = DATA_FOLDER.joinpath("smoker_temps_Sean.csv")
 logger.info(f"Data file: {DATA_FILE}")
 
 #####################################
