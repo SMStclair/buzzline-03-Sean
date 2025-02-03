@@ -1,15 +1,15 @@
 """
-json_consumer_case.py
+json_consumer_Sean.py
 
 Consume json messages from a Kafka topic and process them.
 
 JSON is a set of key:value pairs. 
 
-Example serialized Kafka message
-"{\"message\": \"I love Python!\", \"author\": \"Eve\"}"
+Example JSON message
+{"message": "A shocking revelation changes everything.", "author": "Charlotte", "genre": "Thriller"}
 
-Example JSON message (after deserialization) to be analyzed
-{"message": "I love Python!", "author": "Eve"}
+Example serialized to Kafka message
+"{"message": "A shocking revelation changes everything.", "author": "Charlotte", "genre": "Thriller"}"
 
 """
 
@@ -21,6 +21,7 @@ Example JSON message (after deserialization) to be analyzed
 import os
 import json  # handle JSON parsing
 from collections import defaultdict  # data structure for counting author occurrences
+import polars as pl
 
 # Import external packages
 from dotenv import load_dotenv
