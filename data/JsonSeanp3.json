@@ -1,0 +1,52 @@
+[
+    {
+        "message": "A shocking revelation changes everything.",
+        "author": "Charlotte",
+        "genre": "Thriller"
+    },
+    {
+        "message": "The antagonist is not who they seemed to be.",
+        "author": "Edgar",
+        "genre": "Mystery"
+    },
+    {
+        "message": "A mysterious letter arrives at midnight.",
+        "author": "Lillian",
+        "genre": "Gothic Horror"
+    },
+    {
+        "message": "An unexpected betrayal shatters trust.",
+        "author": "Nathan",
+        "genre": "Drama"
+    },
+    {
+        "message": "The hero’s journey takes an unforeseen detour.",
+        "author": "Isabelle",
+        "genre": "Fantasy"
+    },
+    {
+        "message": "A long-lost manuscript is discovered in the attic.",
+        "author": "Felix",
+        "genre": "Historical Fiction"
+    },
+    {
+        "message": "A forbidden romance defies expectations.",
+        "author": "Eleanor",
+        "genre": "Romance"
+    },
+    {
+        "message": "The villain's backstory is more tragic than expected.",
+        "author": "Theodore",
+        "genre": "Tragedy"
+    },
+    {
+        "message": "A red herring leads the detective astray.",
+        "author": "Margaret",
+        "genre": "Detective Fiction"
+    },
+    {
+        "message": "The final chapter holds an unexpected twist.",
+        "author": "Sebastian",
+        "genre": "Suspense"
+    }
+]

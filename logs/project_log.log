@@ -901,3 +901,828 @@ e'}
 2025-01-30 14:26:16.847 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-01-30T20:26:16.841051', 'temperature': 86.4}
 2025-01-30 14:26:16.847 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
 2025-01-30 14:26:16.847 | INFO     | __main__:get_stall_threshold:60 - Max stall temperature range: 0.2 F
+2025-02-02 22:05:55.530 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:05:55.539 | INFO     | __main__:<module>:69 - Project root: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean
+2025-02-02 22:05:55.540 | INFO     | __main__:<module>:73 - Data folder: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data
+2025-02-02 22:05:55.540 | INFO     | __main__:<module>:77 - Data file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\buzz.json
+2025-02-02 22:05:55.540 | INFO     | __main__:main:125 - START producer.
+2025-02-02 22:05:55.540 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-02-02 22:05:55.548 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-02-02 22:05:55.548 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:05:56.021 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '6YYcNCxhS7OCGehVjQa_PA', 'controller_id': 1001}
+2025-02-02 22:05:56.022 | INFO     | __main__:get_kafka_topic:51 - Kafka topic: literary_alerts
+2025-02-02 22:05:56.022 | INFO     | __main__:get_message_interval:58 - Message interval: 5 seconds
+2025-02-02 22:05:56.023 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:05:56.023 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-02-02 22:05:56.134 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-02-02 22:05:56.135 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:05:56.465 | INFO     | utils.utils_producer:create_kafka_topic:176 - Creating 'literary_alerts'.
+2025-02-02 22:05:56.993 | INFO     | utils.utils_producer:create_kafka_topic:181 - Topic 'literary_alerts' created successfully.
+2025-02-02 22:05:56.994 | INFO     | __main__:main:148 - Kafka topic 'literary_alerts' is ready.
+2025-02-02 22:05:56.994 | INFO     | __main__:main:154 - Starting message production to topic 'literary_alerts'...
+2025-02-02 22:05:56.995 | ERROR    | __main__:main:164 - Error during message production: generate_messages() takes 0 positional arguments but 1 was given
+2025-02-02 22:05:56.996 | INFO     | __main__:main:167 - Kafka producer closed.
+2025-02-02 22:05:56.996 | INFO     | __main__:main:169 - END producer.
+2025-02-02 22:22:31.487 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:22:31.490 | INFO     | __main__:<module>:68 - Project root: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean
+2025-02-02 22:22:31.490 | INFO     | __main__:<module>:72 - Data folder: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data
+2025-02-02 22:22:31.490 | INFO     | __main__:<module>:76 - Data file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:22:31.490 | INFO     | __main__:main:136 - START producer.
+2025-02-02 22:22:31.490 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-02-02 22:22:31.496 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-02-02 22:22:31.497 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:22:31.827 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '6YYcNCxhS7OCGehVjQa_PA', 'controller_id': 1001}
+2025-02-02 22:22:31.829 | INFO     | __main__:get_kafka_topic:50 - Kafka topic: buzzline_json
+2025-02-02 22:22:31.829 | INFO     | __main__:get_message_interval:57 - Message interval: 1 seconds
+2025-02-02 22:22:31.830 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:22:31.830 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-02-02 22:22:31.936 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-02-02 22:22:31.937 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:22:32.270 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline_json' already exists. Clearing it out...
+2025-02-02 22:22:32.270 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:22:32.699 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline_json': list indices must be integers or slices, not ConfigResource
+2025-02-02 22:22:32.700 | INFO     | __main__:main:159 - Kafka topic 'buzzline_json' is ready.
+2025-02-02 22:22:32.700 | INFO     | __main__:main:165 - Starting message production to topic 'buzzline_json'...
+2025-02-02 22:22:32.700 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:22:32.711 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:22:32.712 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:22:33.714 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:22:34.717 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:22:35.720 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:22:36.724 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:22:37.726 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:22:38.730 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:22:39.732 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:22:40.736 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:22:41.739 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:22:42.741 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:22:42.742 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:22:42.746 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:22:43.749 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:22:44.752 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:22:45.756 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:22:46.761 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:22:47.765 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:22:48.769 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:22:49.771 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:22:50.777 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:22:51.779 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:22:52.781 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:22:52.782 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:22:52.786 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:22:53.789 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:22:54.792 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:22:55.796 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:22:56.798 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:22:57.802 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:22:58.806 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:22:59.810 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:23:00.811 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:23:01.814 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:23:02.815 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:23:02.815 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:23:02.817 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:23:03.819 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:23:04.822 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:27:53.405 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:27:53.408 | INFO     | __main__:<module>:68 - Project root: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean
+2025-02-02 22:27:53.408 | INFO     | __main__:<module>:72 - Data folder: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data
+2025-02-02 22:27:53.408 | INFO     | __main__:<module>:76 - Data file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:27:53.408 | INFO     | __main__:main:136 - START producer.
+2025-02-02 22:27:53.408 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-02-02 22:27:53.426 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-02-02 22:27:53.426 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:27:53.761 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '6YYcNCxhS7OCGehVjQa_PA', 'controller_id': 1001}
+2025-02-02 22:27:53.762 | INFO     | __main__:get_kafka_topic:50 - Kafka topic: buzzline_json
+2025-02-02 22:27:53.763 | INFO     | __main__:get_message_interval:57 - Message interval: 1 seconds
+2025-02-02 22:27:53.763 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:27:53.763 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-02-02 22:27:53.873 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-02-02 22:27:53.873 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:27:54.198 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline_json' already exists. Clearing it out...
+2025-02-02 22:27:54.198 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:27:54.519 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline_json': list indices must be integers or slices, not ConfigResource
+2025-02-02 22:27:54.520 | INFO     | __main__:main:159 - Kafka topic 'buzzline_json' is ready.
+2025-02-02 22:27:54.521 | INFO     | __main__:main:165 - Starting message production to topic 'buzzline_json'...
+2025-02-02 22:27:54.521 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:27:54.521 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:27:54.522 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:27:55.524 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:27:56.527 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:27:57.530 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:27:58.534 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:27:59.535 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:28:00.538 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:28:01.540 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:28:02.544 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:28:03.548 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:28:04.550 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:28:05.552 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:28:06.555 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:02.617 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:31:02.619 | INFO     | __main__:<module>:68 - Project root: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean
+2025-02-02 22:31:02.619 | INFO     | __main__:<module>:72 - Data folder: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data
+2025-02-02 22:31:02.619 | INFO     | __main__:<module>:76 - Data file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:31:02.619 | INFO     | __main__:main:136 - START producer.
+2025-02-02 22:31:02.619 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-02-02 22:31:02.624 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-02-02 22:31:02.624 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:31:02.954 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '6YYcNCxhS7OCGehVjQa_PA', 'controller_id': 1001}
+2025-02-02 22:31:02.955 | INFO     | __main__:get_kafka_topic:50 - Kafka topic: buzzline_json
+2025-02-02 22:31:02.955 | INFO     | __main__:get_message_interval:57 - Message interval: 1 seconds
+2025-02-02 22:31:02.955 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:31:02.956 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-02-02 22:31:03.063 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-02-02 22:31:03.064 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:31:03.386 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline_json' already exists. Clearing it out...
+2025-02-02 22:31:03.386 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:31:03.709 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline_json': list indices must be integers or slices, not ConfigResource
+2025-02-02 22:31:03.709 | INFO     | __main__:main:159 - Kafka topic 'buzzline_json' is ready.
+2025-02-02 22:31:03.709 | INFO     | __main__:main:165 - Starting message production to topic 'buzzline_json'...
+2025-02-02 22:31:03.710 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:31:03.710 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:31:03.711 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:04.713 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:05.716 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:06.720 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:07.723 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:08.725 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:09.730 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:10.733 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:11.737 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:12.739 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:13.743 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:31:14.746 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:15.749 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:16.751 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:17.754 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:18.756 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:19.760 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:20.763 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:21.765 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:22.078 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:31:22.080 | INFO     | __main__:main:124 - START consumer.
+2025-02-02 22:31:22.081 | INFO     | __main__:get_kafka_topic:46 - Kafka topic: buzzline_json
+2025-02-02 22:31:22.081 | INFO     | __main__:get_kafka_consumer_group_id:53 - Kafka consumer group id: buzz_group
+2025-02-02 22:31:22.081 | INFO     | __main__:main:129 - Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-02-02 22:31:22.081 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:31:22.081 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-02-02 22:31:22.194 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-02-02 22:31:22.195 | INFO     | __main__:main:135 - Polling messages from topic 'buzzline_json'...
+2025-02-02 22:31:22.364 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-02-02 22:31:22.364 | INFO     | __main__:process_message:95 - Message received from author: Charlie
+2025-02-02 22:31:22.364 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1}
+2025-02-02 22:31:22.365 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-02-02 22:31:22.365 | INFO     | __main__:process_message:95 - Message received from author: Alice
+2025-02-02 22:31:22.365 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1}
+2025-02-02 22:31:22.366 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.366 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.366 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1}
+2025-02-02 22:31:22.366 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:22.367 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:22.367 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1}
+2025-02-02 22:31:22.367 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:22.368 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:22.368 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1, 'Lillian': 1}
+2025-02-02 22:31:22.368 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.368 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.369 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1, 'Lillian': 1, 'Nathan': 1}
+2025-02-02 22:31:22.369 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:31:22.369 | INFO     | __main__:process_message:95 - Message received from author: Isabelle
+2025-02-02 22:31:22.370 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1, 'Lillian': 1, 'Nathan': 1, 'Isabelle': 1}
+2025-02-02 22:31:22.370 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:22.371 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:22.371 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1, 'Lillian': 1, 'Nathan': 1, 'Isabelle': 1, 'Felix': 1}
+2025-02-02 22:31:22.371 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.372 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.372 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1, 'Lillian': 1, 'Nathan': 1, 'Isabelle': 1, 'Felix': 1, 'Eleanor': 1}
+2025-02-02 22:31:22.373 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:22.373 | INFO     | __main__:process_message:95 - Message received from author: Theodore
+2025-02-02 22:31:22.373 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1, 'Lillian': 1, 'Nathan': 1, 'Isabelle': 1, 'Felix': 1, 'Eleanor': 1, 'Theodore': 1}
+2025-02-02 22:31:22.374 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:22.374 | INFO     | __main__:process_message:95 - Message received from author: Margaret
+2025-02-02 22:31:22.374 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1, 'Lillian': 1, 'Nathan': 1, 'Isabelle': 1, 'Felix': 1, 'Eleanor': 1, 'Theodore': 1, 'Margaret': 1}
+2025-02-02 22:31:22.376 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:22.376 | INFO     | __main__:process_message:95 - Message received from author: Sebastian
+2025-02-02 22:31:22.376 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 1, 'Edgar': 1, 'Lillian': 1, 'Nathan': 1, 'Isabelle': 1, 'Felix': 1, 'Eleanor': 1, 'Theodore': 1, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.377 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.378 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.378 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 1, 'Lillian': 1, 'Nathan': 1, 'Isabelle': 1, 'Felix': 1, 'Eleanor': 1, 'Theodore': 1, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.379 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:22.379 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:22.379 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 1, 'Nathan': 1, 'Isabelle': 1, 'Felix': 1, 'Eleanor': 1, 'Theodore': 1, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.380 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:22.381 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:22.381 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 2, 'Nathan': 1, 'Isabelle': 1, 'Felix': 1, 'Eleanor': 1, 'Theodore': 1, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.382 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.382 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.382 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 1, 'Felix': 1, 'Eleanor': 1, 'Theodore': 1, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.383 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:31:22.383 | INFO     | __main__:process_message:95 - Message received from author: Isabelle
+2025-02-02 22:31:22.383 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 2, 'Felix': 1, 'Eleanor': 1, 'Theodore': 1, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.384 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:22.385 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:22.385 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 1, 'Theodore': 1, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.386 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.387 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.387 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 2, 'Theodore': 1, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.388 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:22.388 | INFO     | __main__:process_message:95 - Message received from author: Theodore
+2025-02-02 22:31:22.388 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 1, 'Sebastian': 1}
+2025-02-02 22:31:22.389 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:22.389 | INFO     | __main__:process_message:95 - Message received from author: Margaret
+2025-02-02 22:31:22.389 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 1}
+2025-02-02 22:31:22.390 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:22.390 | INFO     | __main__:process_message:95 - Message received from author: Sebastian
+2025-02-02 22:31:22.390 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 2, 'Edgar': 2, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.391 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.391 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.392 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 2, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.393 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:22.393 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:22.394 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 2, 'Nathan': 2, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.395 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:22.395 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:22.395 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 3, 'Nathan': 2, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.397 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.397 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.397 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 2, 'Felix': 2, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.398 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:31:22.398 | INFO     | __main__:process_message:95 - Message received from author: Isabelle
+2025-02-02 22:31:22.399 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 3, 'Felix': 2, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.399 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:22.400 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:22.400 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 2, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.401 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.401 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.402 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 2, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.402 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:22.403 | INFO     | __main__:process_message:95 - Message received from author: Theodore
+2025-02-02 22:31:22.403 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 2, 'Sebastian': 2}
+2025-02-02 22:31:22.403 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:22.404 | INFO     | __main__:process_message:95 - Message received from author: Margaret
+2025-02-02 22:31:22.404 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 2}
+2025-02-02 22:31:22.405 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:22.405 | INFO     | __main__:process_message:95 - Message received from author: Sebastian
+2025-02-02 22:31:22.405 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 3, 'Edgar': 3, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.406 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.406 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.406 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 4, 'Edgar': 3, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.407 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:22.407 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:22.407 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 4, 'Edgar': 4, 'Lillian': 3, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.407 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:22.408 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:22.408 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 4, 'Edgar': 4, 'Lillian': 4, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.409 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.410 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.410 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 5, 'Edgar': 4, 'Lillian': 4, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.412 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.412 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.412 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 4, 'Lillian': 4, 'Nathan': 3, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.414 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.414 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.415 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 4, 'Lillian': 4, 'Nathan': 4, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.415 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.416 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.416 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 4, 'Lillian': 4, 'Nathan': 5, 'Isabelle': 3, 'Felix': 3, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.416 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:22.417 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:22.417 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 4, 'Lillian': 4, 'Nathan': 5, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 3}
+2025-02-02 22:31:22.418 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:22.418 | INFO     | __main__:process_message:95 - Message received from author: Sebastian
+2025-02-02 22:31:22.418 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 4, 'Lillian': 4, 'Nathan': 5, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 4}
+2025-02-02 22:31:22.419 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:22.419 | INFO     | __main__:process_message:95 - Message received from author: Sebastian
+2025-02-02 22:31:22.419 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 4, 'Lillian': 4, 'Nathan': 5, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.420 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:22.420 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:22.420 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 5, 'Lillian': 4, 'Nathan': 5, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.421 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.421 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.421 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 5, 'Lillian': 4, 'Nathan': 6, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.422 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:22.422 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:22.422 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 6, 'Lillian': 4, 'Nathan': 6, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.423 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.423 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.423 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 6, 'Lillian': 4, 'Nathan': 7, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.424 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.424 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.424 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 6, 'Lillian': 4, 'Nathan': 8, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.425 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:22.425 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:22.426 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 6, 'Edgar': 6, 'Lillian': 5, 'Nathan': 8, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.427 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.427 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.428 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 7, 'Edgar': 6, 'Lillian': 5, 'Nathan': 8, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 3, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.428 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.429 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.429 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 7, 'Edgar': 6, 'Lillian': 5, 'Nathan': 8, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 4, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.430 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.430 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.430 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 7, 'Edgar': 6, 'Lillian': 5, 'Nathan': 8, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 5, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.431 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:22.431 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:22.431 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 7, 'Edgar': 6, 'Lillian': 5, 'Nathan': 9, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 5, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.432 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:22.432 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:22.432 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 7, 'Edgar': 6, 'Lillian': 6, 'Nathan': 9, 'Isabelle': 3, 'Felix': 4, 'Eleanor': 5, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.433 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:22.433 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:22.434 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 7, 'Edgar': 6, 'Lillian': 6, 'Nathan': 9, 'Isabelle': 3, 'Felix': 5, 'Eleanor': 5, 'Theodore': 3, 'Margaret': 3, 'Sebastian': 5}
+2025-02-02 22:31:22.434 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:22.434 | INFO     | __main__:process_message:95 - Message received from author: Margaret
+2025-02-02 22:31:22.435 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 7, 'Edgar': 6, 'Lillian': 6, 'Nathan': 9, 'Isabelle': 3, 'Felix': 5, 'Eleanor': 5, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.435 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.435 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.436 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 6, 'Nathan': 9, 'Isabelle': 3, 'Felix': 5, 'Eleanor': 5, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.436 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.436 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.437 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 6, 'Nathan': 9, 'Isabelle': 3, 'Felix': 5, 'Eleanor': 6, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.437 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.437 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.437 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 6, 'Nathan': 9, 'Isabelle': 3, 'Felix': 5, 'Eleanor': 7, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.438 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:31:22.438 | INFO     | __main__:process_message:95 - Message received from author: Isabelle
+2025-02-02 22:31:22.438 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 6, 'Nathan': 9, 'Isabelle': 4, 'Felix': 5, 'Eleanor': 7, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.439 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:22.439 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:22.439 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 6, 'Nathan': 9, 'Isabelle': 4, 'Felix': 6, 'Eleanor': 7, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.440 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:22.440 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:22.440 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 6, 'Eleanor': 7, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.441 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:22.441 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:22.442 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 7, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.443 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.443 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.443 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 8, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.444 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.445 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.445 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 8, 'Edgar': 6, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 9, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.447 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.447 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.447 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 9, 'Edgar': 6, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 9, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.448 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:22.448 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:22.449 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 10, 'Edgar': 6, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 9, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.450 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:22.451 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:22.451 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 10, 'Edgar': 7, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 9, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:22.769 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.774 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:22.775 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:22.775 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 10, 'Edgar': 7, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 10, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:23.774 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:23.778 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:23.779 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:23.779 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 11, 'Edgar': 7, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 10, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 5}
+2025-02-02 22:31:24.780 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:24.790 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:24.790 | INFO     | __main__:process_message:95 - Message received from author: Sebastian
+2025-02-02 22:31:24.791 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 11, 'Edgar': 7, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 10, 'Theodore': 3, 'Margaret': 4, 'Sebastian': 6}
+2025-02-02 22:31:25.785 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:25.793 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:25.794 | INFO     | __main__:process_message:95 - Message received from author: Theodore
+2025-02-02 22:31:25.794 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 11, 'Edgar': 7, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 4, 'Felix': 7, 'Eleanor': 10, 'Theodore': 4, 'Margaret': 4, 'Sebastian': 6}
+2025-02-02 22:31:26.789 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:31:26.793 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle'}
+2025-02-02 22:31:26.794 | INFO     | __main__:process_message:95 - Message received from author: Isabelle
+2025-02-02 22:31:26.794 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 11, 'Edgar': 7, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 10, 'Theodore': 4, 'Margaret': 4, 'Sebastian': 6}
+2025-02-02 22:31:27.794 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:27.798 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:27.799 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:27.799 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 12, 'Edgar': 7, 'Lillian': 7, 'Nathan': 9, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 10, 'Theodore': 4, 'Margaret': 4, 'Sebastian': 6}
+2025-02-02 22:31:28.797 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:28.804 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:28.804 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:28.805 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 12, 'Edgar': 7, 'Lillian': 7, 'Nathan': 10, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 10, 'Theodore': 4, 'Margaret': 4, 'Sebastian': 6}
+2025-02-02 22:31:29.802 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:29.806 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:29.807 | INFO     | __main__:process_message:95 - Message received from author: Sebastian
+2025-02-02 22:31:29.807 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 12, 'Edgar': 7, 'Lillian': 7, 'Nathan': 10, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 10, 'Theodore': 4, 'Margaret': 4, 'Sebastian': 7}
+2025-02-02 22:31:30.805 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:30.814 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:30.814 | INFO     | __main__:process_message:95 - Message received from author: Theodore
+2025-02-02 22:31:30.815 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 12, 'Edgar': 7, 'Lillian': 7, 'Nathan': 10, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 10, 'Theodore': 5, 'Margaret': 4, 'Sebastian': 7}
+2025-02-02 22:31:31.809 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:31.817 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:31.818 | INFO     | __main__:process_message:95 - Message received from author: Margaret
+2025-02-02 22:31:31.818 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 12, 'Edgar': 7, 'Lillian': 7, 'Nathan': 10, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 10, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 7}
+2025-02-02 22:31:32.814 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:32.820 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan'}
+2025-02-02 22:31:32.821 | INFO     | __main__:process_message:95 - Message received from author: Nathan
+2025-02-02 22:31:32.821 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 12, 'Edgar': 7, 'Lillian': 7, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 10, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 7}
+2025-02-02 22:31:33.819 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:33.823 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian'}
+2025-02-02 22:31:33.824 | INFO     | __main__:process_message:95 - Message received from author: Sebastian
+2025-02-02 22:31:33.824 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 12, 'Edgar': 7, 'Lillian': 7, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 10, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 8}
+2025-02-02 22:31:34.823 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:34.829 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:34.830 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:34.830 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 12, 'Edgar': 7, 'Lillian': 7, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 8}
+2025-02-02 22:31:35.825 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:35.939 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:35.940 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:35.941 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 13, 'Edgar': 7, 'Lillian': 7, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 8}
+2025-02-02 22:31:36.829 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:36.934 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:36.934 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:36.935 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 13, 'Edgar': 7, 'Lillian': 8, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 8}
+2025-02-02 22:31:37.832 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:37.838 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:37.838 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:37.839 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 13, 'Edgar': 8, 'Lillian': 8, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 8}
+2025-02-02 22:31:38.838 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:38.843 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:38.843 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:38.844 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 14, 'Edgar': 8, 'Lillian': 8, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 8}
+2025-02-02 22:31:39.841 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:39.848 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte'}
+2025-02-02 22:31:39.848 | INFO     | __main__:process_message:95 - Message received from author: Charlotte
+2025-02-02 22:31:39.849 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 8, 'Lillian': 8, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 5, 'Sebastian': 8}
+2025-02-02 22:31:40.845 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:40.854 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:40.855 | INFO     | __main__:process_message:95 - Message received from author: Margaret
+2025-02-02 22:31:40.855 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 8, 'Lillian': 8, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 6, 'Sebastian': 8}
+2025-02-02 22:31:41.848 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:41.852 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:41.853 | INFO     | __main__:process_message:95 - Message received from author: Margaret
+2025-02-02 22:31:41.853 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 8, 'Lillian': 8, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 7, 'Sebastian': 8}
+2025-02-02 22:31:42.852 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:42.858 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian'}
+2025-02-02 22:31:42.859 | INFO     | __main__:process_message:95 - Message received from author: Lillian
+2025-02-02 22:31:42.859 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 8, 'Lillian': 9, 'Nathan': 11, 'Isabelle': 5, 'Felix': 7, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 7, 'Sebastian': 8}
+2025-02-02 22:31:43.856 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:43.860 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:43.861 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:43.861 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 8, 'Lillian': 9, 'Nathan': 11, 'Isabelle': 5, 'Felix': 8, 'Eleanor': 11, 'Theodore': 5, 'Margaret': 7, 'Sebastian': 8}
+2025-02-02 22:31:44.858 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:44.864 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor'}
+2025-02-02 22:31:44.864 | INFO     | __main__:process_message:95 - Message received from author: Eleanor
+2025-02-02 22:31:44.865 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 8, 'Lillian': 9, 'Nathan': 11, 'Isabelle': 5, 'Felix': 8, 'Eleanor': 12, 'Theodore': 5, 'Margaret': 7, 'Sebastian': 8}
+2025-02-02 22:31:45.861 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:45.866 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix'}
+2025-02-02 22:31:45.866 | INFO     | __main__:process_message:95 - Message received from author: Felix
+2025-02-02 22:31:45.866 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 8, 'Lillian': 9, 'Nathan': 11, 'Isabelle': 5, 'Felix': 9, 'Eleanor': 12, 'Theodore': 5, 'Margaret': 7, 'Sebastian': 8}
+2025-02-02 22:31:46.864 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:46.868 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:31:46.868 | INFO     | __main__:process_message:95 - Message received from author: Theodore
+2025-02-02 22:31:46.868 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 8, 'Lillian': 9, 'Nathan': 11, 'Isabelle': 5, 'Felix': 9, 'Eleanor': 12, 'Theodore': 6, 'Margaret': 7, 'Sebastian': 8}
+2025-02-02 22:31:47.867 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:47.871 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:31:47.871 | INFO     | __main__:process_message:95 - Message received from author: Edgar
+2025-02-02 22:31:47.872 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 1, 'Alice': 1, 'Charlotte': 15, 'Edgar': 9, 'Lillian': 9, 'Nathan': 11, 'Isabelle': 5, 'Felix': 9, 'Eleanor': 12, 'Theodore': 6, 'Margaret': 7, 'Sebastian': 8}
+2025-02-02 22:31:48.869 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:31:49.873 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:32:07.958 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:32:07.960 | INFO     | __main__:<module>:66 - Project root: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean
+2025-02-02 22:32:07.960 | INFO     | __main__:<module>:70 - Data folder: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data
+2025-02-02 22:32:07.960 | INFO     | __main__:<module>:74 - Data file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\smoker_temps.csv
+2025-02-02 22:32:07.960 | INFO     | __main__:main:134 - START producer.
+2025-02-02 22:32:07.960 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-02-02 22:32:07.965 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-02-02 22:32:07.965 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:32:08.289 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '6YYcNCxhS7OCGehVjQa_PA', 'controller_id': 1001}
+2025-02-02 22:32:08.289 | INFO     | __main__:get_kafka_topic:48 - Kafka topic: smoker_csv
+2025-02-02 22:32:08.290 | INFO     | __main__:get_message_interval:55 - Message interval: 5 seconds
+2025-02-02 22:32:08.290 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:32:08.290 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-02-02 22:32:08.399 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-02-02 22:32:08.399 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:32:08.723 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'smoker_csv' already exists. Clearing it out...
+2025-02-02 22:32:08.724 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:32:09.058 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'smoker_csv': list indices must be integers or slices, not ConfigResource
+2025-02-02 22:32:09.059 | INFO     | __main__:main:157 - Kafka topic 'smoker_csv' is ready.
+2025-02-02 22:32:09.060 | INFO     | __main__:main:163 - Starting message production to topic 'smoker_csv'...
+2025-02-02 22:32:09.060 | INFO     | __main__:generate_messages:93 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\smoker_temps.csv
+2025-02-02 22:32:09.070 | INFO     | __main__:generate_messages:95 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\smoker_temps.csv
+2025-02-02 22:32:09.071 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:09.070119', 'temperature': 70.4}
+2025-02-02 22:32:14.071 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:14.071645', 'temperature': 70.8}
+2025-02-02 22:32:19.075 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:19.074023', 'temperature': 71.2}
+2025-02-02 22:32:24.078 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:24.077094', 'temperature': 71.6}
+2025-02-02 22:32:29.080 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:29.080805', 'temperature': 72.0}
+2025-02-02 22:32:34.084 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:34.083089', 'temperature': 72.4}
+2025-02-02 22:32:39.089 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:39.087026', 'temperature': 72.8}
+2025-02-02 22:32:44.093 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:44.090919', 'temperature': 73.2}
+2025-02-02 22:32:49.097 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:49.095515', 'temperature': 73.6}
+2025-02-02 22:32:54.101 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:54.099029', 'temperature': 74.0}
+2025-02-02 22:32:58.202 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:32:58.205 | INFO     | __main__:main:162 - START consumer.
+2025-02-02 22:32:58.205 | INFO     | __main__:get_kafka_topic:46 - Kafka topic: smoker_csv
+2025-02-02 22:32:58.205 | INFO     | __main__:get_kafka_consumer_group_id:53 - Kafka consumer group id: smoker_group
+2025-02-02 22:32:58.205 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.205 | INFO     | __main__:main:168 - Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-02-02 22:32:58.205 | INFO     | __main__:main:169 - Rolling window size: 10
+2025-02-02 22:32:58.205 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:32:58.205 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-02-02 22:32:58.314 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-02-02 22:32:58.315 | INFO     | __main__:main:177 - Polling messages from topic 'smoker_csv'...
+2025-02-02 22:32:58.646 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:09.070119', 'temperature': 70.4}
+2025-02-02 22:32:58.647 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.648 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:14.071645', 'temperature': 70.8}
+2025-02-02 22:32:58.648 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.650 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:19.074023', 'temperature': 71.2}
+2025-02-02 22:32:58.650 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.651 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:24.077094', 'temperature': 71.6}
+2025-02-02 22:32:58.651 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.651 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:29.080805', 'temperature': 72.0}
+2025-02-02 22:32:58.651 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.652 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:34.083089', 'temperature': 72.4}
+2025-02-02 22:32:58.652 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.653 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:39.087026', 'temperature': 72.8}
+2025-02-02 22:32:58.653 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.654 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:44.090919', 'temperature': 73.2}
+2025-02-02 22:32:58.654 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.655 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:49.095515', 'temperature': 73.6}
+2025-02-02 22:32:58.655 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.655 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:54.099029', 'temperature': 74.0}
+2025-02-02 22:32:58.655 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:58.656 | INFO     | __main__:get_stall_threshold:60 - Max stall temperature range: 0.2 F
+2025-02-02 22:32:59.103 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:32:59.102181', 'temperature': 74.4}
+2025-02-02 22:32:59.110 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:32:59.102181', 'temperature': 74.4}
+2025-02-02 22:32:59.111 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:32:59.111 | INFO     | __main__:get_stall_threshold:60 - Max stall temperature range: 0.2 F
+2025-02-02 22:33:04.107 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:33:04.106150', 'temperature': 74.8}
+2025-02-02 22:33:04.113 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:33:04.106150', 'temperature': 74.8}
+2025-02-02 22:33:04.114 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:33:04.114 | INFO     | __main__:get_stall_threshold:60 - Max stall temperature range: 0.2 F
+2025-02-02 22:33:09.113 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:33:09.110312', 'temperature': 75.2}
+2025-02-02 22:33:09.119 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:33:09.110312', 'temperature': 75.2}
+2025-02-02 22:33:09.119 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:33:09.120 | INFO     | __main__:get_stall_threshold:60 - Max stall temperature range: 0.2 F
+2025-02-02 22:33:14.116 | INFO     | __main__:main:167 - Sent message to topic 'smoker_csv': {'timestamp': '2025-02-03T04:33:14.114972', 'temperature': 75.6}
+2025-02-02 22:33:14.120 | INFO     | __main__:process_message:127 - Processed JSON message: {'timestamp': '2025-02-03T04:33:14.114972', 'temperature': 75.6}
+2025-02-02 22:33:14.120 | INFO     | __main__:get_rolling_window_size:67 - Rolling window size: 10
+2025-02-02 22:33:14.120 | INFO     | __main__:get_stall_threshold:60 - Max stall temperature range: 0.2 F
+2025-02-02 22:37:22.629 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:37:22.631 | INFO     | __main__:<module>:68 - Project root: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean
+2025-02-02 22:37:22.631 | INFO     | __main__:<module>:72 - Data folder: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data
+2025-02-02 22:37:22.631 | INFO     | __main__:<module>:76 - Data file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:37:22.631 | INFO     | __main__:main:136 - START producer.
+2025-02-02 22:37:22.631 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-02-02 22:37:22.635 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-02-02 22:37:22.637 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:37:22.963 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '6YYcNCxhS7OCGehVjQa_PA', 'controller_id': 1001}
+2025-02-02 22:37:22.964 | INFO     | __main__:get_kafka_topic:50 - Kafka topic: buzzline_json
+2025-02-02 22:37:22.964 | INFO     | __main__:get_message_interval:57 - Message interval: 1 seconds
+2025-02-02 22:37:22.965 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:37:22.965 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-02-02 22:37:23.074 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-02-02 22:37:23.074 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:37:23.393 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline_json' already exists. Clearing it out...
+2025-02-02 22:37:23.393 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:37:23.723 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline_json': list indices must be integers or slices, not ConfigResource
+2025-02-02 22:37:23.724 | INFO     | __main__:main:159 - Kafka topic 'buzzline_json' is ready.
+2025-02-02 22:37:23.724 | INFO     | __main__:main:165 - Starting message production to topic 'buzzline_json'...
+2025-02-02 22:37:23.725 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:37:23.733 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:37:23.734 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret', 'genre': 'Detective Fiction'}
+2025-02-02 22:37:24.736 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:37:25.739 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:37:26.743 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian', 'genre': 'Gothic Horror'}
+2025-02-02 22:37:27.746 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:37:28.747 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:37:29.749 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte', 'genre': 'Thriller'}
+2025-02-02 22:37:30.752 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore', 'genre': 'Tragedy'}
+2025-02-02 22:39:25.483 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:39:25.485 | INFO     | __main__:<module>:68 - Project root: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean
+2025-02-02 22:39:25.485 | INFO     | __main__:<module>:72 - Data folder: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data
+2025-02-02 22:39:25.486 | INFO     | __main__:<module>:76 - Data file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:39:25.486 | INFO     | __main__:main:136 - START producer.
+2025-02-02 22:39:25.486 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-02-02 22:39:25.490 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-02-02 22:39:25.490 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:39:25.813 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '6YYcNCxhS7OCGehVjQa_PA', 'controller_id': 1001}
+2025-02-02 22:39:25.813 | INFO     | __main__:get_kafka_topic:50 - Kafka topic: buzzline_json
+2025-02-02 22:39:25.814 | INFO     | __main__:get_message_interval:57 - Message interval: 1 seconds
+2025-02-02 22:39:25.814 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:39:25.814 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-02-02 22:39:25.921 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-02-02 22:39:25.921 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:39:26.239 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline_json' already exists. Clearing it out...
+2025-02-02 22:39:26.239 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:39:26.556 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline_json': list indices must be integers or slices, not ConfigResource
+2025-02-02 22:39:26.556 | INFO     | __main__:main:159 - Kafka topic 'buzzline_json' is ready.
+2025-02-02 22:39:26.557 | INFO     | __main__:main:165 - Starting message production to topic 'buzzline_json'...
+2025-02-02 22:39:26.557 | INFO     | __main__:generate_messages:95 - Opening data file in read mode: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:39:26.557 | INFO     | __main__:generate_messages:97 - Reading data from file: C:\Users\jstcl\OneDrive\Desktop\Sean school stuff personal\Streaming Data\Module 3\buzzline-03-Sean\data\JsonSeanp3.json
+2025-02-02 22:39:26.558 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:27.560 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:28.563 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle', 'genre': 'Fantasy'}
+2025-02-02 22:39:29.566 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:30.568 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:31.573 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:32.578 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:33.583 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte', 'genre': 'Thriller'}
+2025-02-02 22:39:34.587 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian', 'genre': 'Suspense'}
+2025-02-02 22:39:35.591 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian', 'genre': 'Gothic Horror'}
+2025-02-02 22:39:36.594 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret', 'genre': 'Detective Fiction'}
+2025-02-02 22:39:37.597 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:38.600 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A red herring leads the detective astray.', 'author': 'Margaret', 'genre': 'Detective Fiction'}
+2025-02-02 22:39:39.604 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:40.607 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle', 'genre': 'Fantasy'}
+2025-02-02 22:39:41.612 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian', 'genre': 'Gothic Horror'}
+2025-02-02 22:39:42.616 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore', 'genre': 'Tragedy'}
+2025-02-02 22:39:43.619 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle', 'genre': 'Fantasy'}
+2025-02-02 22:39:44.623 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian', 'genre': 'Gothic Horror'}
+2025-02-02 22:39:44.986 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-02-02 22:39:44.989 | INFO     | __main__:main:132 - START consumer.
+2025-02-02 22:39:44.989 | INFO     | __main__:get_kafka_topic:46 - Kafka topic: buzzline_json
+2025-02-02 22:39:44.989 | INFO     | __main__:get_kafka_consumer_group_id:53 - Kafka consumer group id: buzz_group
+2025-02-02 22:39:44.989 | INFO     | __main__:main:137 - Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-02-02 22:39:44.989 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-02-02 22:39:44.989 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-02-02 22:39:45.100 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-02-02 22:39:45.100 | INFO     | __main__:main:143 - Polling messages from topic 'buzzline_json'...
+2025-02-02 22:39:45.426 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar'}
+2025-02-02 22:39:45.426 | INFO     | __main__:process_message:97 - Message received from author: Edgar, Genre: unknown
+2025-02-02 22:39:45.426 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1}
+2025-02-02 22:39:45.426 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 1}
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret'}
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:97 - Message received from author: Margaret, Genre: unknown
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 1}
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 2}
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore'}
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:97 - Message received from author: Theodore, Genre: unknown
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 1, 'Theodore': 1}
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3}
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret', 'genre': 'Detective Fiction'}
+2025-02-02 22:39:45.427 | INFO     | __main__:process_message:97 - Message received from author: Margaret, Genre: Detective Fiction
+2025-02-02 22:39:45.428 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 1}
+2025-02-02 22:39:45.428 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1}
+2025-02-02 22:39:45.428 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:45.428 | INFO     | __main__:process_message:97 - Message received from author: Nathan, Genre: Drama
+2025-02-02 22:39:45.429 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 1, 'Nathan': 1}
+2025-02-02 22:39:45.429 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 1}
+2025-02-02 22:39:45.430 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:45.430 | INFO     | __main__:process_message:97 - Message received from author: Eleanor, Genre: Romance
+2025-02-02 22:39:45.430 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 1, 'Nathan': 1, 'Eleanor': 1}
+2025-02-02 22:39:45.430 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 1, 'Romance': 1}
+2025-02-02 22:39:45.431 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian', 'genre': 'Gothic Horror'}
+2025-02-02 22:39:45.431 | INFO     | __main__:process_message:97 - Message received from author: Lillian, Genre: Gothic Horror
+2025-02-02 22:39:45.431 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 1, 'Nathan': 1, 'Eleanor': 1, 'Lillian': 1}
+2025-02-02 22:39:45.431 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 1, 'Romance': 1, 'Gothic Horror': 1}
+2025-02-02 22:39:45.432 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:45.432 | INFO     | __main__:process_message:97 - Message received from author: Eleanor, Genre: Romance
+2025-02-02 22:39:45.432 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 1, 'Nathan': 1, 'Eleanor': 2, 'Lillian': 1}
+2025-02-02 22:39:45.432 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 1, 'Romance': 2, 'Gothic Horror': 1}
+2025-02-02 22:39:45.433 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:45.433 | INFO     | __main__:process_message:97 - Message received from author: Nathan, Genre: Drama
+2025-02-02 22:39:45.433 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 1, 'Nathan': 2, 'Eleanor': 2, 'Lillian': 1}
+2025-02-02 22:39:45.433 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 2, 'Romance': 2, 'Gothic Horror': 1}
+2025-02-02 22:39:45.434 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte', 'genre': 'Thriller'}
+2025-02-02 22:39:45.434 | INFO     | __main__:process_message:97 - Message received from author: Charlotte, Genre: Thriller
+2025-02-02 22:39:45.435 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 1, 'Nathan': 2, 'Eleanor': 2, 'Lillian': 1, 'Charlotte': 1}
+2025-02-02 22:39:45.435 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 2, 'Romance': 2, 'Gothic Horror': 1, 'Thriller': 1}
+2025-02-02 22:39:45.436 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore', 'genre': 'Tragedy'}
+2025-02-02 22:39:45.436 | INFO     | __main__:process_message:97 - Message received from author: Theodore, Genre: Tragedy
+2025-02-02 22:39:45.436 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 2, 'Eleanor': 2, 'Lillian': 1, 'Charlotte': 1}
+2025-02-02 22:39:45.437 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 2, 'Romance': 2, 'Gothic Horror': 1, 'Thriller': 1, 'Tragedy': 1}
+2025-02-02 22:39:45.437 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:45.437 | INFO     | __main__:process_message:97 - Message received from author: Eleanor, Genre: Romance
+2025-02-02 22:39:45.438 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 2, 'Eleanor': 3, 'Lillian': 1, 'Charlotte': 1}
+2025-02-02 22:39:45.438 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 2, 'Romance': 3, 'Gothic Horror': 1, 'Thriller': 1, 'Tragedy': 1}
+2025-02-02 22:39:45.439 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:45.440 | INFO     | __main__:process_message:97 - Message received from author: Felix, Genre: Historical Fiction
+2025-02-02 22:39:45.440 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 2, 'Eleanor': 3, 'Lillian': 1, 'Charlotte': 1, 'Felix': 1}
+2025-02-02 22:39:45.440 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 2, 'Romance': 3, 'Gothic Horror': 1, 'Thriller': 1, 'Tragedy': 1, 'Historical Fiction': 1}
+2025-02-02 22:39:45.442 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle', 'genre': 'Fantasy'}
+2025-02-02 22:39:45.442 | INFO     | __main__:process_message:97 - Message received from author: Isabelle, Genre: Fantasy
+2025-02-02 22:39:45.442 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 2, 'Eleanor': 3, 'Lillian': 1, 'Charlotte': 1, 'Felix': 1, 'Isabelle': 1}
+2025-02-02 22:39:45.443 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 2, 'Romance': 3, 'Gothic Horror': 1, 'Thriller': 1, 'Tragedy': 1, 'Historical Fiction': 1, 'Fantasy': 1}
+2025-02-02 22:39:45.445 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:45.445 | INFO     | __main__:process_message:97 - Message received from author: Eleanor, Genre: Romance
+2025-02-02 22:39:45.446 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 2, 'Eleanor': 4, 'Lillian': 1, 'Charlotte': 1, 'Felix': 1, 'Isabelle': 1}
+2025-02-02 22:39:45.446 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 2, 'Romance': 4, 'Gothic Horror': 1, 'Thriller': 1, 'Tragedy': 1, 'Historical Fiction': 1, 'Fantasy': 1}
+2025-02-02 22:39:45.448 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:45.448 | INFO     | __main__:process_message:97 - Message received from author: Felix, Genre: Historical Fiction
+2025-02-02 22:39:45.448 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 2, 'Eleanor': 4, 'Lillian': 1, 'Charlotte': 1, 'Felix': 2, 'Isabelle': 1}
+2025-02-02 22:39:45.449 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 2, 'Romance': 4, 'Gothic Horror': 1, 'Thriller': 1, 'Tragedy': 1, 'Historical Fiction': 2, 'Fantasy': 1}
+2025-02-02 22:39:45.450 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:45.450 | INFO     | __main__:process_message:97 - Message received from author: Nathan, Genre: Drama
+2025-02-02 22:39:45.450 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 4, 'Lillian': 1, 'Charlotte': 1, 'Felix': 2, 'Isabelle': 1}
+2025-02-02 22:39:45.450 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 3, 'Romance': 4, 'Gothic Horror': 1, 'Thriller': 1, 'Tragedy': 1, 'Historical Fiction': 2, 'Fantasy': 1}
+2025-02-02 22:39:45.452 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:45.452 | INFO     | __main__:process_message:97 - Message received from author: Felix, Genre: Historical Fiction
+2025-02-02 22:39:45.452 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 4, 'Lillian': 1, 'Charlotte': 1, 'Felix': 3, 'Isabelle': 1}
+2025-02-02 22:39:45.453 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 3, 'Romance': 4, 'Gothic Horror': 1, 'Thriller': 1, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 1}
+2025-02-02 22:39:45.453 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A shocking revelation changes everything.', 'author': 'Charlotte', 'genre': 'Thriller'}
+2025-02-02 22:39:45.454 | INFO     | __main__:process_message:97 - Message received from author: Charlotte, Genre: Thriller
+2025-02-02 22:39:45.454 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 4, 'Lillian': 1, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 1}
+2025-02-02 22:39:45.454 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 3, 'Romance': 4, 'Gothic Horror': 1, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 1}
+2025-02-02 22:39:45.455 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian', 'genre': 'Suspense'}
+2025-02-02 22:39:45.455 | INFO     | __main__:process_message:97 - Message received from author: Sebastian, Genre: Suspense
+2025-02-02 22:39:45.456 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 4, 'Lillian': 1, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 1, 'Sebastian': 1}
+2025-02-02 22:39:45.456 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 3, 'Romance': 4, 'Gothic Horror': 1, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 1, 'Suspense': 1}
+2025-02-02 22:39:45.457 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian', 'genre': 'Gothic Horror'}
+2025-02-02 22:39:45.457 | INFO     | __main__:process_message:97 - Message received from author: Lillian, Genre: Gothic Horror
+2025-02-02 22:39:45.457 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 2, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 4, 'Lillian': 2, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 1, 'Sebastian': 1}
+2025-02-02 22:39:45.457 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 1, 'Drama': 3, 'Romance': 4, 'Gothic Horror': 2, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 1, 'Suspense': 1}
+2025-02-02 22:39:45.458 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret', 'genre': 'Detective Fiction'}
+2025-02-02 22:39:45.458 | INFO     | __main__:process_message:97 - Message received from author: Margaret, Genre: Detective Fiction
+2025-02-02 22:39:45.459 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 3, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 4, 'Lillian': 2, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 1, 'Sebastian': 1}
+2025-02-02 22:39:45.459 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 2, 'Drama': 3, 'Romance': 4, 'Gothic Horror': 2, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 1, 'Suspense': 1}
+2025-02-02 22:39:45.461 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:45.461 | INFO     | __main__:process_message:97 - Message received from author: Eleanor, Genre: Romance
+2025-02-02 22:39:45.461 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 3, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 5, 'Lillian': 2, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 1, 'Sebastian': 1}
+2025-02-02 22:39:45.462 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 2, 'Drama': 3, 'Romance': 5, 'Gothic Horror': 2, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 1, 'Suspense': 1}
+2025-02-02 22:39:45.463 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A red herring leads the detective astray.', 'author': 'Margaret', 'genre': 'Detective Fiction'}
+2025-02-02 22:39:45.463 | INFO     | __main__:process_message:97 - Message received from author: Margaret, Genre: Detective Fiction
+2025-02-02 22:39:45.463 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 5, 'Lillian': 2, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 1, 'Sebastian': 1}
+2025-02-02 22:39:45.463 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 3, 'Romance': 5, 'Gothic Horror': 2, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 1, 'Suspense': 1}
+2025-02-02 22:39:45.464 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:45.464 | INFO     | __main__:process_message:97 - Message received from author: Eleanor, Genre: Romance
+2025-02-02 22:39:45.465 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 6, 'Lillian': 2, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 1, 'Sebastian': 1}
+2025-02-02 22:39:45.465 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 3, 'Romance': 6, 'Gothic Horror': 2, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 1, 'Suspense': 1}
+2025-02-02 22:39:45.466 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle', 'genre': 'Fantasy'}
+2025-02-02 22:39:45.466 | INFO     | __main__:process_message:97 - Message received from author: Isabelle, Genre: Fantasy
+2025-02-02 22:39:45.466 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 6, 'Lillian': 2, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 2, 'Sebastian': 1}
+2025-02-02 22:39:45.466 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 3, 'Romance': 6, 'Gothic Horror': 2, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 2, 'Suspense': 1}
+2025-02-02 22:39:45.467 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian', 'genre': 'Gothic Horror'}
+2025-02-02 22:39:45.467 | INFO     | __main__:process_message:97 - Message received from author: Lillian, Genre: Gothic Horror
+2025-02-02 22:39:45.468 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 2, 'Nathan': 3, 'Eleanor': 6, 'Lillian': 3, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 2, 'Sebastian': 1}
+2025-02-02 22:39:45.468 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 3, 'Romance': 6, 'Gothic Horror': 3, 'Thriller': 2, 'Tragedy': 1, 'Historical Fiction': 3, 'Fantasy': 2, 'Suspense': 1}
+2025-02-02 22:39:45.469 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore', 'genre': 'Tragedy'}
+2025-02-02 22:39:45.469 | INFO     | __main__:process_message:97 - Message received from author: Theodore, Genre: Tragedy
+2025-02-02 22:39:45.470 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 3, 'Eleanor': 6, 'Lillian': 3, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 2, 'Sebastian': 1}
+2025-02-02 22:39:45.470 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 3, 'Romance': 6, 'Gothic Horror': 3, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 3, 'Fantasy': 2, 'Suspense': 1}
+2025-02-02 22:39:45.471 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle', 'genre': 'Fantasy'}
+2025-02-02 22:39:45.471 | INFO     | __main__:process_message:97 - Message received from author: Isabelle, Genre: Fantasy
+2025-02-02 22:39:45.471 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 3, 'Eleanor': 6, 'Lillian': 3, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 3, 'Sebastian': 1}
+2025-02-02 22:39:45.471 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 3, 'Romance': 6, 'Gothic Horror': 3, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 3, 'Fantasy': 3, 'Suspense': 1}
+2025-02-02 22:39:45.472 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A mysterious letter arrives at midnight.', 'author': 'Lillian', 'genre': 'Gothic Horror'}
+2025-02-02 22:39:45.473 | INFO     | __main__:process_message:97 - Message received from author: Lillian, Genre: Gothic Horror
+2025-02-02 22:39:45.473 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 3, 'Eleanor': 6, 'Lillian': 4, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 3, 'Sebastian': 1}
+2025-02-02 22:39:45.473 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 3, 'Romance': 6, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 3, 'Fantasy': 3, 'Suspense': 1}
+2025-02-02 22:39:45.624 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:45.627 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:45.628 | INFO     | __main__:process_message:97 - Message received from author: Nathan, Genre: Drama
+2025-02-02 22:39:45.628 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 4, 'Eleanor': 6, 'Lillian': 4, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 3, 'Sebastian': 1}
+2025-02-02 22:39:45.628 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 4, 'Romance': 6, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 3, 'Fantasy': 3, 'Suspense': 1}
+2025-02-02 22:39:46.628 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:46.633 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:46.634 | INFO     | __main__:process_message:97 - Message received from author: Nathan, Genre: Drama
+2025-02-02 22:39:46.635 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 5, 'Eleanor': 6, 'Lillian': 4, 'Charlotte': 2, 'Felix': 3, 'Isabelle': 3, 'Sebastian': 1}
+2025-02-02 22:39:46.635 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 5, 'Romance': 6, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 3, 'Fantasy': 3, 'Suspense': 1}
+2025-02-02 22:39:47.631 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:47.637 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:47.637 | INFO     | __main__:process_message:97 - Message received from author: Felix, Genre: Historical Fiction
+2025-02-02 22:39:47.637 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 5, 'Eleanor': 6, 'Lillian': 4, 'Charlotte': 2, 'Felix': 4, 'Isabelle': 3, 'Sebastian': 1}
+2025-02-02 22:39:47.638 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 5, 'Romance': 6, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 4, 'Fantasy': 3, 'Suspense': 1}
+2025-02-02 22:39:48.636 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:48.641 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:48.642 | INFO     | __main__:process_message:97 - Message received from author: Nathan, Genre: Drama
+2025-02-02 22:39:48.642 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 6, 'Eleanor': 6, 'Lillian': 4, 'Charlotte': 2, 'Felix': 4, 'Isabelle': 3, 'Sebastian': 1}
+2025-02-02 22:39:48.643 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 6, 'Romance': 6, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 4, 'Fantasy': 3, 'Suspense': 1}
+2025-02-02 22:39:49.640 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian', 'genre': 'Suspense'}
+2025-02-02 22:39:49.644 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian', 'genre': 'Suspense'}
+2025-02-02 22:39:49.645 | INFO     | __main__:process_message:97 - Message received from author: Sebastian, Genre: Suspense
+2025-02-02 22:39:49.646 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 6, 'Eleanor': 6, 'Lillian': 4, 'Charlotte': 2, 'Felix': 4, 'Isabelle': 3, 'Sebastian': 2}
+2025-02-02 22:39:49.646 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 6, 'Romance': 6, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 4, 'Fantasy': 3, 'Suspense': 2}
+2025-02-02 22:39:50.643 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:50.648 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:50.649 | INFO     | __main__:process_message:97 - Message received from author: Felix, Genre: Historical Fiction
+2025-02-02 22:39:50.649 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 6, 'Eleanor': 6, 'Lillian': 4, 'Charlotte': 2, 'Felix': 5, 'Isabelle': 3, 'Sebastian': 2}
+2025-02-02 22:39:50.650 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 6, 'Romance': 6, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 5, 'Fantasy': 3, 'Suspense': 2}
+2025-02-02 22:39:51.647 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle', 'genre': 'Fantasy'}
+2025-02-02 22:39:51.654 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The heroâ€™s journey takes an unforeseen detour.', 'author': 'Isabelle', 'genre': 'Fantasy'}
+2025-02-02 22:39:51.654 | INFO     | __main__:process_message:97 - Message received from author: Isabelle, Genre: Fantasy
+2025-02-02 22:39:51.655 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 6, 'Eleanor': 6, 'Lillian': 4, 'Charlotte': 2, 'Felix': 5, 'Isabelle': 4, 'Sebastian': 2}
+2025-02-02 22:39:51.655 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 6, 'Romance': 6, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 5, 'Fantasy': 4, 'Suspense': 2}
+2025-02-02 22:39:52.650 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:52.653 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:52.654 | INFO     | __main__:process_message:97 - Message received from author: Eleanor, Genre: Romance
+2025-02-02 22:39:52.654 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 6, 'Eleanor': 7, 'Lillian': 4, 'Charlotte': 2, 'Felix': 5, 'Isabelle': 4, 'Sebastian': 2}
+2025-02-02 22:39:52.654 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 6, 'Romance': 7, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 5, 'Fantasy': 4, 'Suspense': 2}
+2025-02-02 22:39:53.653 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian', 'genre': 'Suspense'}
+2025-02-02 22:39:53.658 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The final chapter holds an unexpected twist.', 'author': 'Sebastian', 'genre': 'Suspense'}
+2025-02-02 22:39:53.659 | INFO     | __main__:process_message:97 - Message received from author: Sebastian, Genre: Suspense
+2025-02-02 22:39:53.659 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 6, 'Eleanor': 7, 'Lillian': 4, 'Charlotte': 2, 'Felix': 5, 'Isabelle': 4, 'Sebastian': 3}
+2025-02-02 22:39:53.659 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 6, 'Romance': 7, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 5, 'Fantasy': 4, 'Suspense': 3}
+2025-02-02 22:39:54.656 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:54.662 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A long-lost manuscript is discovered in the attic.', 'author': 'Felix', 'genre': 'Historical Fiction'}
+2025-02-02 22:39:54.662 | INFO     | __main__:process_message:97 - Message received from author: Felix, Genre: Historical Fiction
+2025-02-02 22:39:54.663 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 6, 'Eleanor': 7, 'Lillian': 4, 'Charlotte': 2, 'Felix': 6, 'Isabelle': 4, 'Sebastian': 3}
+2025-02-02 22:39:54.664 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 6, 'Romance': 7, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 6, 'Fantasy': 4, 'Suspense': 3}
+2025-02-02 22:39:55.660 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:55.664 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'An unexpected betrayal shatters trust.', 'author': 'Nathan', 'genre': 'Drama'}
+2025-02-02 22:39:55.665 | INFO     | __main__:process_message:97 - Message received from author: Nathan, Genre: Drama
+2025-02-02 22:39:55.665 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 1, 'Margaret': 4, 'Theodore': 3, 'Nathan': 7, 'Eleanor': 7, 'Lillian': 4, 'Charlotte': 2, 'Felix': 6, 'Isabelle': 4, 'Sebastian': 3}
+2025-02-02 22:39:55.666 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 7, 'Romance': 7, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 6, 'Fantasy': 4, 'Suspense': 3}
+2025-02-02 22:39:56.664 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar', 'genre': 'Mystery'}
+2025-02-02 22:39:56.667 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'The antagonist is not who they seemed to be.', 'author': 'Edgar', 'genre': 'Mystery'}
+2025-02-02 22:39:56.667 | INFO     | __main__:process_message:97 - Message received from author: Edgar, Genre: Mystery
+2025-02-02 22:39:56.668 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 2, 'Margaret': 4, 'Theodore': 3, 'Nathan': 7, 'Eleanor': 7, 'Lillian': 4, 'Charlotte': 2, 'Felix': 6, 'Isabelle': 4, 'Sebastian': 3}
+2025-02-02 22:39:56.668 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 7, 'Romance': 7, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 6, 'Fantasy': 4, 'Suspense': 3, 'Mystery': 1}
+2025-02-02 22:39:57.666 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:57.668 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': 'A forbidden romance defies expectations.', 'author': 'Eleanor', 'genre': 'Romance'}
+2025-02-02 22:39:57.668 | INFO     | __main__:process_message:97 - Message received from author: Eleanor, Genre: Romance
+2025-02-02 22:39:57.668 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 2, 'Margaret': 4, 'Theodore': 3, 'Nathan': 7, 'Eleanor': 8, 'Lillian': 4, 'Charlotte': 2, 'Felix': 6, 'Isabelle': 4, 'Sebastian': 3}
+2025-02-02 22:39:57.668 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 7, 'Romance': 8, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 2, 'Historical Fiction': 6, 'Fantasy': 4, 'Suspense': 3, 'Mystery': 1}
+2025-02-02 22:39:58.667 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore', 'genre': 'Tragedy'}
+2025-02-02 22:39:58.670 | INFO     | __main__:process_message:89 - Processed JSON message: {'message': "The villain's backstory is more tragic than expected.", 'author': 'Theodore', 'genre': 'Tragedy'}
+2025-02-02 22:39:58.671 | INFO     | __main__:process_message:97 - Message received from author: Theodore, Genre: Tragedy
+2025-02-02 22:39:58.671 | INFO     | __main__:process_message:106 - Updated author counts: {'Edgar': 2, 'Margaret': 4, 'Theodore': 4, 'Nathan': 7, 'Eleanor': 8, 'Lillian': 4, 'Charlotte': 2, 'Felix': 6, 'Isabelle': 4, 'Sebastian': 3}
+2025-02-02 22:39:58.671 | INFO     | __main__:process_message:107 - Updated genre counts: {'unknown': 3, 'Detective Fiction': 3, 'Drama': 7, 'Romance': 8, 'Gothic Horror': 4, 'Thriller': 2, 'Tragedy': 3, 'Historical Fiction': 6, 'Fantasy': 4, 'Suspense': 3, 'Mystery': 1}
